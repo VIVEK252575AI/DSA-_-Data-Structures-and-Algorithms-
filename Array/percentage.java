@@ -38,3 +38,16 @@ public class percentage {
         System.out.println("Average Percentage: " + result + "%");
     }
 }
+
+
+// if any time i want to understand the inner working of this program
+// i can use the following this 
+/* 
+   Dry Run (Example: {2, 4, 6, 8, 10})
+Step	first	last	Swap	Resulting Array
+1	0	4	2 ↔ 10	{10, 4, 6, 8, 2}
+2	1	3	4 ↔ 8	{10, 8, 6, 4, 2}
+3	2	2	(stop)	No swap needed, loop ends
+
+🔚 Final Output: {10, 8, 6, 4, 2} 
+*/
