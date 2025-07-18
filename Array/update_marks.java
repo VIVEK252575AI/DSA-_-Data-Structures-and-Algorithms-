@@ -1,3 +1,14 @@
+/* this program is indicate pass by reffrence 
+ * as you can see the makes update not only in function but also in main program 
+ */
+
+
+
+
+
+
+
+
 package Array;
 
 import java.util.Scanner;
