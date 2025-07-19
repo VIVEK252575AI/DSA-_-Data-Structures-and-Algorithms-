@@ -1,7 +1,7 @@
 package Array; 
 import java.util.*;
 
-public class add_subarrays {
+public class max_subarrays {
 
     public static void sub(int numbers[]) {
         int max = Integer.MIN_VALUE;  // Now it's declared inside static method
