@@ -1,0 +1,17 @@
+package Assignment;
+
+// This program demonstrates how to find the index of a target element in an array using linear search.
+public class index {
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 4, 5}; // Example array
+        int target = 5; // Target value to find
+
+        // Linear search: iterate through the array to find the target
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) { // Check if current element matches the target
+                System.out.print(i); // Print the index where target is found
+            }
+        }
+    
+    }
+}
