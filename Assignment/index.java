@@ -15,3 +15,6 @@ public class index {
     
     }
 }
+
+  // Linear search: iterate through the array to find the target
+    // Linear search: iterate through the array to find the target
