@@ -21,3 +21,4 @@ public class duplicate {
         else System.out.println("false");
     }
 }
+//this is just for dekhava 
