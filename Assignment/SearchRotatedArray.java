@@ -48,3 +48,4 @@ public class SearchRotatedArray {
         System.out.println();
     } 
 }
+  // Linear search: iterate through the array to find the target
