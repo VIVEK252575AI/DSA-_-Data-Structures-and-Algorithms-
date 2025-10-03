@@ -40,4 +40,4 @@ public class subarrayprefix {
         sub(numbers);
     }
 }
-// this is the best time to start coding 
+ 
