@@ -50,3 +50,4 @@ public class binary_search {
         }
     }
 }
+//THIS IS HOW YOU CAN MAKE \
