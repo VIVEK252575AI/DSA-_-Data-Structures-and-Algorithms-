@@ -49,4 +49,4 @@ public class binary_search {
             System.out.println("Index for key is: " + index);
         }
     }
-}// thsi is this best application 
+}
