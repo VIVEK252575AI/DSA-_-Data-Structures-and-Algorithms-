@@ -51,3 +51,4 @@ public class SearchRotatedArray {
   // Linear search: iterate through the array to find the target
 
  
+ // Time Complexity: O(n)
