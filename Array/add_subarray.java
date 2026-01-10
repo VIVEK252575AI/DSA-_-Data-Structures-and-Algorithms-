@@ -24,4 +24,4 @@ public class add_subarray {
         int numbers[] = {2, 4, 6, 8, 10};
         sub(numbers);
     }
-}//this ish ow 
+}
