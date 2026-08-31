@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskOrbit | Focus, Calendar & DSA Tracker</title>
+  <meta
+    name="description"
+    content="A minimal 3D landing page for a productivity app that combines calendar planning, task scheduling, coding question tracking, class updates, and progress insights."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#hero" aria-label="TaskOrbit home">
+      <span class="brand-mark">TO</span>
+      <span>TaskOrbit</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#calendar">Calendar</a>
+      <a href="#tracker">Tracker</a>
+      <a href="#classes">Classes</a>
+      <a href="#stats">Stats</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark and light theme">
+      <span class="toggle-icon">☾</span>
+      <span class="toggle-text">Dark</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">3D minimal productivity workspace</p>
+        <h1>Manage time, tasks, DSA practice, classes, and status in one calm dashboard.</h1>
+        <p class="hero-description">
+          TaskOrbit is a landing concept for a smart planner that blends Google Calendar-style scheduling,
+          repeat problem reminders, online class updates, meeting planning, and progress snapshots.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#features">Explore features</a>
+          <a class="secondary-btn" href="#preview">View preview</a>
+        </div>
+        <div class="metric-row" aria-label="Product highlights">
+          <span><strong>4</strong> core modules</span>
+          <span><strong>3D</strong> glass UI</span>
+          <span><strong>2</strong> themes</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="preview" aria-label="TaskOrbit dashboard preview">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="dashboard-card main-card">
+          <div class="card-topline">
+            <span>Today · May 06</span>
+            <span class="status-pill">On track</span>
+          </div>
+          <div class="calendar-grid" aria-hidden="true">
+            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+            <b></b><b></b><b class="active"></b><b></b><b class="event"></b><b></b><b></b>
+            <b></b><b class="event"></b><b></b><b></b><b></b><b class="active"></b><b></b>
+          </div>
+          <div class="task-stack">
+            <div><span class="dot blue"></span>Algorithms revision <strong>09:00</strong></div>
+            <div><span class="dot purple"></span>Online class <strong>14:30</strong></div>
+            <div><span class="dot green"></span>LeetCode repeat <strong>20:00</strong></div>
+          </div>
+        </div>
+        <div class="dashboard-card floating-card code-card">
+          <span>Problem tracker</span>
+          <strong>Binary Search</strong>
+          <small>Next review: 1 month</small>
+        </div>
+        <div class="dashboard-card floating-card stats-card">
+          <span>Weekly focus</span>
+          <strong>82%</strong>
+          <small>12 tasks complete</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Built around your four workflows</p>
+        <h2 id="features-title">A focused operating system for learning and execution.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card" id="calendar">
+          <span class="feature-icon">🗓️</span>
+          <h3>Time management calendar</h3>
+          <p>
+            Plan by time, date, week, and month with a calendar experience designed for daily routines,
+            study blocks, deadlines, and long-term goals.
+          </p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">✅</span>
+          <h3>Task scheduling</h3>
+          <p>
+            Add tasks directly to calendar slots, assign priority, and keep every action connected to the
+            exact moment you want to complete it.
+          </p>
+        </article>
+        <article class="feature-card" id="tracker">
+          <span class="feature-icon">💡</span>
+          <h3>Question link tracker</h3>
+          <p>
+            Paste a coding problem link, track difficulty, count how many times you solved it, and set spaced
+            reminders for 1, 2, or 3 months later.
+          </p>
+        </article>
+        <article class="feature-card" id="classes">
+          <span class="feature-icon">🎥</span>
+          <h3>Classes and meetings</h3>
+          <p>
+            Keep online classes, live sessions, recordings, and meetings in one timeline so learning updates
+            never get separated from your plan.
+          </p>
+        </article>
+        <article class="feature-card" id="stats">
+          <span class="feature-icon">📊</span>
+          <h3>Status and updates</h3>
+          <p>
+            See your current position with static summaries, live updates, completion rate, consistency, and
+            upcoming workload at a glance.
+          </p>
+        </article>
+        <article class="feature-card accent-card">
+          <span class="feature-icon">◐</span>
+          <h3>Dark and light theme</h3>
+          <p>
+            Switch between deep focus mode and a soft light interface, both using glass surfaces, subtle depth,
+            and 3D texture.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow" aria-labelledby="workflow-title">
+      <div>
+        <p class="eyebrow">Simple daily flow</p>
+        <h2 id="workflow-title">Capture, schedule, repeat, and improve.</h2>
+      </div>
+      <div class="timeline">
+        <div><strong>01</strong><span>Add task or class</span></div>
+        <div><strong>02</strong><span>Place it on calendar</span></div>
+        <div><strong>03</strong><span>Track DSA questions</span></div>
+        <div><strong>04</strong><span>Review status dashboard</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>TaskOrbit landing page concept</span>
+    <a href="#hero">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
